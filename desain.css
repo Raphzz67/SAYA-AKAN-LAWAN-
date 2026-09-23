@@ -97,7 +97,11 @@ body {
     min-height: 100vh;
     width: 100%;
     padding-top: 80px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-image: url(Porsche.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,4 +211,24 @@ body {
     .box h1 {
         font-size: 22px;
     }
+}
+
+.login {
+    margin-top: 250px;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    background-image: url('tes.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
